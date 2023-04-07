@@ -27,6 +27,7 @@ Link:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZCC3KLSaYXzE69EA2IYa6udd
 For this dataset there were originally 2401 rows and 15 columns. 
 
 **Data Dictionary**
+
 ![Data_Dictionary](Images/Data_Dictionary.png)
 
 ## Methods:

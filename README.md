@@ -85,9 +85,7 @@ Random Forest Classifier had an equal performance on test data with XGBoost. To 
 
 **Metrics and Confusion Matrix for Train and Test Data**
 
-![Screenshot 2023-04-06 at 10.23.10 PM](Images/Screenshot 2023-04-06 at 10.23.10 PM.png)
 
-![Screenshot 2023-04-06 at 10.23.26 PM](Images/Screenshot 2023-04-06 at 10.23.26 PM.png)
 
 The percentage of false negatives is still high, particularly for medical data regarding a diagnosis. Even though it was reduced to 13% percent, to responsibly execute this model accomodations will need to be made to ensure those patients will false negatives don't come to harm. 
 

@@ -88,7 +88,7 @@ Random Forest Classifier had an equal performance on test data with XGBoost. To 
 ![Smote_Train](Images/Smote_Train.png)
 
 
-
+![Smote_Test](Images/Smote_Test.png)
 
 The percentage of false negatives is still high, particularly for medical data regarding a diagnosis. Even though it was reduced to 13% percent, to responsibly execute this model accomodations will need to be made to ensure those patients will false negatives don't come to harm. 
 

@@ -1,4 +1,4 @@
-# HealthcareClassification
+# Healthcare Classification
 
  Ashley Heinrich
 
@@ -78,7 +78,7 @@ This is a test to measure the albumin protein levels in urine. It is a quicker '
 
 ## Machine Learning
 
-**Random Forest Classifier
+**Random Forest Classifier**
 
 The Random Forest Classifier had a equal performance on test data as XGBoost. To optimize performance, all models were hypertuned. When the Random Forest Classifier was used and SMOTE the best metrics were achieved. 
 

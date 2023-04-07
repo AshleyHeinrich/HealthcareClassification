@@ -80,22 +80,22 @@ This is a test to measure the albumin protein levels in urine. It is a quicker '
 
 **Random Forest Classifier**
 
-The Random Forest Classifier had a equal performance on test data as XGBoost. To optimize performance, all models were hypertuned. When the Random Forest Classifier was used and SMOTE the best metrics were achieved. 
+Random Forest Classifier had an equal performance on test data with XGBoost. To optimize performance, all models were hypertuned. When the Random Forest Classifier was used with SMOTE, the best metrics were achieved. 
 
 **Metrics and Confusion Matrix for Train and Test Data**
 
 
 
-The percentage of false negatives is still high, particularly for medical data regarding a diagnosis. !!!!! Even though it was reduced by !! percent, to responsibly execute this model accomodations will need to be made to ensure those patients will false negatives don't come to harm. 
+The percentage of false negatives is still high, particularly for medical data regarding a diagnosis. Even though it was reduced to 13% percent, to responsibly execute this model accomodations will need to be made to ensure those patients will false negatives don't come to harm. 
 
 
 ## Recommendations:
 
-A recommendation for looking further into retrieving missing data, particularly that in Waist Circumference as it is diagnostic criteria for Metabolic Syndrome. Asking for more data might help as well. Another option would be getting clarity for the meaning of the Albuminuria column results which could allow the Urine Albumin to Creatinine Ratio column to be dropped as they test for the same thing in different ways. This would help decrease the amount of outliers going into the models as that column has many. Because the false negatives were still high despite features editing and hypertuning, any of these options could be very beneficial. Implementing more methods that help balance data could also be explored to possibly improve model metrics. 
+A recommendation for looking further into retrieving missing data, particularly that in Waist Circumference as it is diagnostic criteria for Metabolic Syndrome. Asking for more data might help as well. Another option would be getting clarity for the meaning of the Albuminuria column results which could allow the Urine Albumin to Creatinine Ratio column to be dropped as they test for the same thing in different ways. This would help decrease the amount of outliers going into the models as that column has many. Implementing more methods that help balance data could also be explored to possibly improve model metrics. 
 
 
 ## Limitation and Next Steps: 
 
 Limitations of this project include the quantities of missing data that had to be imputed and their subsequent effect on the integrity of the data. The lack of access to descriptions in the data dictionary required many assumptions to be made and dropping of what potentially could have been a useful column. General lack of access to any stakeholder to ask questions or for general clarification was limiting. Finally, the limitations of the classification models working with this dataset and that other models may or may not have performed better. 
 
-To move forward with this model, it would be necessary to offer access to medical care to all who were considered negative. This would help cover the 14% that were falsely diagnosed as not having metabolic syndrome, particularly to those adults who are elderly and most susceptible. This could be in the form of a three or six month checkup or physical for example. Education should also be given to all patients regarding signs/symptoms of Metabolic Syndrome and they should be encouraged to report any changes in their health to a medical provider. 
+To move forward with this model, it would be necessary to offer access to medical care to all who were considered negative. This would help cover the 13% that were falsely diagnosed as not having metabolic syndrome, particularly to those adults who are elderly and most susceptible. This could be in the form of a three or six month checkup or physical for example. Education should also be given to all patients regarding signs/symptoms of Metabolic Syndrome and they should be encouraged to report any changes in their health to a medical provider. 
